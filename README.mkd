@@ -19,4 +19,4 @@ Assuming this file is placed as `./sample.cs`, Only you need to execute this is 
 dotnet run -p [path/to/QuickSharp] -- -f ./sample.cs
 ```
 
-Tada! You'll see `Hello, World!` text in stdout!
+:tada: Tada! You'll see `Hello, World!` text in stdout!
