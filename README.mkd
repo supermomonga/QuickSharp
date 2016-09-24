@@ -2,11 +2,24 @@
 
 An easily way to run your C# code without any namespace or entrypoint class/method.
 
+## How to build
+
+It's very easy.
+
+1. Clone this repository into somewhere in your computer
+1. Compile it.
+
+```
+git clone git@github.com:supermomonga/QuickSharp.git path/to/QuickSharp
+cd path/to/QuickSharp
+dotnet build -c Release
+```
+
+This will create `QuickSharp.dll` in `path/to/QuickSharp/Release/netcoreapp1.0/`.
+
 ## How to use
 
-It's very easy. First of all, clone this repository into somewhere in your computer.
-
-Then, create `.cs` file as you like. Here is example.
+Create `.cs` file as you like. Here is example.
 
 ```
 using System;
@@ -16,7 +29,7 @@ Console.WriteLine("Hello, World!");
 Assuming this file is placed as `./sample.cs`, Only you need to execute this is to run following command.
 
 ```
-dotnet run -p [path/to/QuickSharp] -- -f ./sample.cs
+dotnet [path/to/QuickSharp.dll] -f ./sample.cs
 ```
 
 :tada: Tada! You'll see `Hello, World!` text in stdout!
