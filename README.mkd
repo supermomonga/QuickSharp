@@ -1,0 +1,22 @@
+# QuickSharp
+
+An easily way to run your C# code without any namespace or entrypoint class/method.
+
+## How to use
+
+It's very easy. First of all, clone this repository into somewhere in your computer.
+
+Then, create `.cs` file as you like. Here is example.
+
+```
+using System;
+Console.WriteLine("Hello, World!");
+```
+
+Assuming this file is placed as `./sample.cs`, Only you need to execute this is to run following command.
+
+```
+dotnet run -p [path/to/QuickSharp] -- -f ./sample.cs
+```
+
+Tada! You'll see `Hello, World!` text in stdout!
