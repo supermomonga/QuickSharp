@@ -15,7 +15,7 @@ cd path/to/QuickSharp
 dotnet build -c Release
 ```
 
-This will create `QuickSharp.dll` in `path/to/QuickSharp/Release/netcoreapp1.0/`.
+This will create `dotnet-quicksharp.dll` in `path/to/QuickSharp/Release/netcoreapp1.0/`.
 
 ## How to use
 
@@ -29,7 +29,7 @@ Console.WriteLine("Hello, World!");
 Assuming this file is placed as `./sample.cs`, Only you need to execute this is to run following command.
 
 ```
-dotnet [path/to/QuickSharp.dll] -f ./sample.cs
+dotnet [path/to/dotnet-quicksharp.dll] -f ./sample.cs
 ```
 
 :tada: Tada! You'll see `Hello, World!` text in stdout!
