@@ -6,6 +6,7 @@
     <AssemblyTitle>QuickSharp</AssemblyTitle>
     <VersionPrefix>0.1.0</VersionPrefix>
     <Authors>supermomonga</Authors>
+    <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp1.1</TargetFramework>
     <AssemblyName>dotnet-quicksharp</AssemblyName>
     <PackageId>QuickSharp</PackageId>

@@ -12,6 +12,7 @@ It's very easy.
 ```
 git clone git@github.com:supermomonga/QuickSharp.git path/to/QuickSharp
 cd path/to/QuickSharp
+dotnet restore
 dotnet build -c Release
 ```
 
@@ -29,7 +30,7 @@ Console.WriteLine("Hello, World!");
 Assuming this file is placed as `./sample.cs`, Only you need to execute this is to run following command.
 
 ```
-dotnet [path/to/dotnet-quicksharp.dll] -f ./sample.cs
+dotnet [path/to/dotnet-quicksharp.dll] ./sample.cs
 ```
 
 :tada: Tada! You'll see `Hello, World!` text in stdout!
