@@ -16,7 +16,7 @@ dotnet restore
 dotnet build -c Release
 ```
 
-This will create `dotnet-quicksharp.dll` in `path/to/QuickSharp/Release/netcoreapp1.0/`.
+This will create `dotnet-quicksharp.dll` in `path/to/QuickSharp/Release/netcoreapp1.1/`.
 
 ## How to use
 
