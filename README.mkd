@@ -27,10 +27,10 @@ using System;
 Console.WriteLine("Hello, World!");
 ```
 
-Assuming this file is placed as `./sample.cs`, Only you need to execute this is to run following command.
+Assuming this file is placed as `./sample.csx`, Only you need to execute this is to run following command.
 
 ```
-dotnet [path/to/dotnet-quicksharp.dll] ./sample.cs
+dotnet [path/to/dotnet-quicksharp.dll] ./sample.csx
 ```
 
 :tada: Tada! You'll see `Hello, World!` text in stdout!
