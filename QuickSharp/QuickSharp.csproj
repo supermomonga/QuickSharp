@@ -4,10 +4,10 @@
     <Description>Easy way to execute your C# script via dotnet subcommand.</Description>
     <Copyright>supermomonga 2016~</Copyright>
     <AssemblyTitle>QuickSharp</AssemblyTitle>
-    <VersionPrefix>0.1.1</VersionPrefix>
+    <VersionPrefix>0.1.2</VersionPrefix>
     <Authors>supermomonga</Authors>
     <OutputType>Exe</OutputType>
-    <TargetFramework>netcoreapp1.1</TargetFramework>
+    <TargetFramework>netcoreapp1.0</TargetFramework>
     <AssemblyName>dotnet-quicksharp</AssemblyName>
     <PackageId>QuickSharp</PackageId>
   </PropertyGroup>
@@ -18,7 +18,7 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.CodeAnalysis.CSharp.Scripting" Version="2.3.0" />
-    <PackageReference Include="Microsoft.Extensions.CommandlineUtils" Version="1.1.1" />
+    <PackageReference Include="Microsoft.Extensions.CommandlineUtils" Version="1.0.1" />
   </ItemGroup>
 
   <ItemGroup>
